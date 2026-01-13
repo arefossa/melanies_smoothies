@@ -1,6 +1,7 @@
 # Import python packages
 import streamlit as st
 import requests
+import pandas
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
@@ -46,6 +47,7 @@ if ingredients_list :
     
 
         st.success('Your Smoothie is ordered, ' + name_on_order + '!', icon="✅")
+
 
 
 
